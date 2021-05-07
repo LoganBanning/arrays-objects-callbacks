@@ -116,20 +116,26 @@ user2.email = "bryan.smith@devmounta.in";
 */
 
 //Code Here
-
+// let methodCollection = {}
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
 //Code Here
-
+// methodCollection.function(alertHello) {
+//   alert('hello');
+// }
+// methodCollection.function(logHello) {
+//   console.log('hello');
+// }
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+// alertHello();
+// logHello();
 ////////// PROBLEM 6 //////////
 
 /*
@@ -138,7 +144,14 @@ user2.email = "bryan.smith@devmounta.in";
 */
 
 //Code Here
-
+function makePerson(name, birthday, ssn) {
+  let makePerson = {
+    name: "Logan",
+    birthday: "February 21st",
+    ssn: "that's top secret bud",
+  }
+  
+}
 ////////// PROBLEM 7 //////////
 
 /*
