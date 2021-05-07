@@ -28,7 +28,10 @@
 */
 
 // Code Here 
+// function first(names, firstName){
 
+// }
+// first(names[0]);
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
@@ -48,7 +51,7 @@ first(names, function(firstName){
 */
 
 //Code Here
-
+// function last([])
 // Do not edit the code below.
 last(names, function(lastName){
   console.log('The last name in names is ' + lastName);
