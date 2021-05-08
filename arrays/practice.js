@@ -51,12 +51,16 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
   Loop through the given array and alert every item in the array.
 */
 
-//Code Here
-// function looper(family){
-//   for(i = 0; i < family.length; i++);
-//   alert(family[i]);
-// }
+// Code Here
+function looper(family){
+  for(i = 0; i < family.length; i++){
+    alert(family[i]);
+  }
+  
+}
+looper();
 
+// looper();
 
 ////////// PROBLEM 4 //////////
 
@@ -70,11 +74,15 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-// function reversedLooper(letters){
-//   for(i = letters.length; i >= 0; i--);
-//   alert(reversedLooper[i]);
-// }
-// reversedLooper();
+function reversedLooper(letters){
+  for(i = letters.length - 1; i >= 0; i--) {
+    alert(letters[i]);
+
+  }
+  
+}
+
+reversedLooper()
 
 
 ////////// PROBLEM 5 //////////
@@ -89,12 +97,17 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 */
 
 //Code Here
-// function evenFinder(nums){
-//   for (var i = 0; i < arr.length; i++) {
-//     if (arr[i] % 2 === 0)
-//   }
-// }
-// evenFinder()
+
+function evenFinder(nums){
+  let result = [];
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] % 2 === 0)
+    result.push(nums[i]);
+    
+  }
+  return result;
+}
+
 
 
 

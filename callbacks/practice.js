@@ -28,9 +28,7 @@
 */
 
 // Code Here 
-// function first(names, firstName){
-
-// }
+var first = function(names, )
 // first(names[0]);
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
@@ -143,7 +141,7 @@ each(names, function(item, indice){
 */
 
 // Code here
-
+function getUserById()
 // Do not edit the code below.
 var users = [
   {

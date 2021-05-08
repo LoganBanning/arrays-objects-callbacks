@@ -154,6 +154,7 @@ logHello();
 // function makePerson(name, birthday, ssn) {
 //   return makePerson;
 // }
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -162,7 +163,7 @@ logHello();
 */
 
 //Code Here
-function makeCard(cardNumber, expirationDate, securityCode) {
+function makeCard(_cardNumber, _expirationDate, _securityCode) {
   let makeCard = {
     cardNumber: 1234567812345678,
     expirationDate: "03 / 25",
