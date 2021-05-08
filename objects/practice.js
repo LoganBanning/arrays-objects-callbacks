@@ -163,12 +163,12 @@ logHello();
 */
 
 //Code Here
-function makeCard(_cardNumber, _expirationDate, _securityCode) {
-  let makeCard = {
-    cardNumber: 1234567812345678,
-    expirationDate: "03 / 25",
-    securityCode: 123,
-  }
-}
+// function makeCard(_cardNumber, _expirationDate, _securityCode) {
+//   let makeCard = {
+//     cardNumber: 1234567812345678,
+//     expirationDate: "03 / 25",
+//     securityCode: 123,
+//   }
+// }
 
-makeCard();
+// makeCard();
