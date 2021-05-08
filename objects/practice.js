@@ -116,26 +116,27 @@ user2.email = "bryan.smith@devmounta.in";
 */
 
 //Code Here
-// let methodCollection = {}
+let methodCollection = {}
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
 //Code Here
-// methodCollection.function(alertHello) {
-//   alert('hello');
-// }
-// methodCollection.function(logHello) {
-//   console.log('hello');
-// }
+methodCollection.alertHello = function() {
+  alert('hello');
+}
+
+methodCollection.logHello = function(){
+  console.log('hello');
+}
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-// alertHello();
-// logHello();
+alertHello();
+logHello();
 ////////// PROBLEM 6 //////////
 
 /*
@@ -144,14 +145,15 @@ user2.email = "bryan.smith@devmounta.in";
 */
 
 //Code Here
-function makePerson(name, birthday, ssn) {
-  let makePerson = {
-    name: "Logan",
-    birthday: "February 21st",
-    ssn: "that's top secret bud",
-  }
-  
-}
+// let makePerson = {
+//   name: "Logan",
+//   birthday: "February 21st",
+//   ssn: "that's top secret bud",
+// }
+
+// function makePerson(name, birthday, ssn) {
+//   return makePerson;
+// }
 ////////// PROBLEM 7 //////////
 
 /*
@@ -160,3 +162,12 @@ function makePerson(name, birthday, ssn) {
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode) {
+  let makeCard = {
+    cardNumber: 1234567812345678,
+    expirationDate: "03 / 25",
+    securityCode: 123,
+  }
+}
+
+makeCard();
