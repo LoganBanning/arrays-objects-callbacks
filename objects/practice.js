@@ -117,10 +117,10 @@ user2.email = "bryan.smith@devmounta.in";
 
 //Code Here
 let methodCollection = {}
-/*
-  Now add two methods (functions that are properties on objects) to your methodCollection object.
-  One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
-*/
+// /*
+//   Now add two methods (functions that are properties on objects) to your methodCollection object.
+//   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
+// */
 
 //Code Here
 methodCollection.alertHello = function() {
@@ -145,15 +145,58 @@ logHello();
 */
 
 //Code Here
-// let makePerson = {
+
+// console.log(person.name)
+// const person = {
 //   name: "Logan",
 //   birthday: "February 21st",
 //   ssn: "that's top secret bud",
 // }
 
-// function makePerson(name, birthday, ssn) {
-//   return makePerson;
+function makePerson(name, birthday, ssn) {
+  var obj = {
+    name: name, 
+    birthday: birthday,
+    ssn: ssn
+  }
+  return obj 
+} 
+  // }
+
+
+  //First, the object creator
+
+  // name
+  // totalScore
+  // gamesPlayed
+
+//        this.name =  name;
+//        this.totalScore = totalScore;
+//        this.gamesPlayed = gamesPlayed;
 // }
+  // name = person.name
+  // birthday = person.birthday
+  // ssn = person.ssn 
+
+  // console.log(birthday)
+
+  // return (
+  //   name, birthday, ssn 
+  
+  // const person = {
+  //   name: "Logan",
+  //   birthday: "February",
+  //   ssn: "nunya",
+  // }
+  // console.log(person);
+  // for(i = 0; i < )
+  // return person;
+
+
+console.log(makePerson());
+makePerson();
+
+
 
 ////////// PROBLEM 7 //////////
 
